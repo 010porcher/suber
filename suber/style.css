@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header input[type="text"],
+.header input[type="month"], 
+.header input[type="time"] {
+    width: calc(20% - 10px); 
+    padding: 10px;
+    margin: 10px 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+.header input:hover[type="text"],
+.header input:hover[type="month"], 
+.header input:hover[type="time"], 
+header input:hover[type="submit"] {
+    background-color: #8f8f8f;
+}
+
+.frota {
+    text-align: center;
+    padding: 20px;
+}
+
+.frota h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.frota h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.frota img {
+    margin: 10px;
+}
+
+.frota a {
+    color: #0079c1;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+color: #0079c1;}
