@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: black;
     color: black;
     padding: 20px;
     text-align: center;
@@ -19,26 +19,35 @@ body {
 }
 
 .header input[type="text"],
-.header input[type="month"], 
+.header input[type="date"],
 .header input[type="time"] {
-    width: calc(20% - 10px); 
+    width: calc(20% - 10px);
     padding: 10px;
-    margin: 10px 5px; 
+    margin: 10px 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    display: inline-block; 
-    vertical-align: middle; 
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .header input:hover[type="text"],
-.header input:hover[type="month"], 
-.header input:hover[type="time"], 
-header input:hover[type="submit"] {
+.header input:hover[type="date"],
+.header input:hover[type="time"] {
     background-color: #8f8f8f;
+}
+
+.header input:hover[type="submit"] {
+    background-color: #0079c1;
 }
 
 .frota {
     text-align: center;
     padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .frota h1 {
@@ -62,7 +71,7 @@ header input:hover[type="submit"] {
 }
 
 .footer {
-    background-color: #000000;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -84,4 +93,35 @@ header input:hover[type="submit"] {
 }
 
 .footer a:hover {
-color: #0079c1;}
+    color: #0079c1;
+}
+
+.quem-somos,
+.produtos-servicos,
+.contato,
+.time,
+.onde-estamos {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.quem-somos h1,
+.produtos-servicos h1,
+.contato h1,
+.time h1,
+.onde-estamos h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.quem-somos p,
+.produtos-servicos p,
+.contato p,
+.time ul,
+.onde-estamos p {
+    font-size: 16px;
+    color: #666;
+}
